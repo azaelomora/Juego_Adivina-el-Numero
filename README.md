@@ -5,12 +5,19 @@ Juego: "Adivina el número" en lenguaje python, en el cual, el usuario debe adiv
 Tiene 8 oportunidades para adivinar el número aleatorio.
 
 ```
-*** Si el número ingresado es menor al número aleatorio se mostrá el siguiente mensaje: "Respuesta incorrecta {el nombre ingresado por el usuario}. Eligiste un número menor al número secreto." ***
+*** Si el número ingresado es menor al número aleatorio se mostrá el siguiente mensaje:
+"Respuesta incorrecta {el nombre ingresado por el usuario}.
+Eligiste un número menor al número secreto." ***
 
-*** Si el número ingresado es mayor al número aleatorio se mostrá el siguiente mensaje: "Respuesta incorrecta {nombre}. Eligiste un número mayor al número secreto." ***
+*** Si el número ingresado es mayor al número aleatorio se mostrá el siguiente mensaje:
+"Respuesta incorrecta {nombre}.
+Eligiste un número mayor al número secreto." ***
 
-*** Si el número ingresado es igual al número aleatorio se mostrá el siguiente mensaje: "Felicidades {el nombre ingresado por el usuario}, acertaste, ¡has ganado!
-        Lo lograste en {No. de intentos} intentos" ***
+*** Si el número ingresado es igual al número aleatorio se mostrá el siguiente mensaje:
+"Felicidades {el nombre ingresado por el usuario}, acertaste, ¡has ganado!
+Lo lograste en {No. de intentos} intentos" ***
 
-*** Si la cantidad de intentos se vence, se mostrá el siguiente mensaje: "¡Qué mala suerte :/! {nombre}, has gastado todos tus intentos. El número secreto era {numer_random}. ¡Has perdido :(!"***
+*** Si la cantidad de intentos se vence, se mostrá el siguiente mensaje:
+"¡Qué mala suerte :/! {nombre}, has gastado todos tus intentos.
+El número secreto era {numer_random}. ¡Has perdido :(!"***
 ```
