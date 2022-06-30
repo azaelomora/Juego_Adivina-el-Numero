@@ -15,18 +15,18 @@ a = int(input('Ingresa un número: '))
 while (a != numer_random) and (intentos != 0):
     if a < numer_random:
         print(f'''Respuesta incorrecta {nombre}.
-        Eligiste un número menor al número secreto.\n''')
+        Elegiste un número menor al número secreto.\n''')
         intentos -=1
         a = int(input('Ingresa un número diferente: '))
     elif a > numer_random:
         print(f'''Respuesta incorrecta {nombre}.
-        Eligiste un número mayor al número secreto.\n''')
+        Elegiste un número mayor al número secreto.\n''')
         intentos -=1
         a = int(input('Ingresa un número diferente: '))
 else:
     if a == numer_random:
         print(f'''Felicidades {nombre}, acertaste, ¡has ganado!
-        Lo lograste en {intentos} intentos''')
+        Lo lograste en {intentos-8} intentos''')
     else:
         print(f'''¡Qué mala suerte :/! {nombre}, has gastado todos tus intentos.
         El número secreto era {numer_random}.
