@@ -1,11 +1,3 @@
-'''
-Le preguntará al usuario su nombre
-Bueno Juan he pensado un número entre el 1 y el 100 y tienes 8 intentos para adivinarlos
-menor a 1 o superior al 100 0>n<100
-Menor al que ha pensando el programa: Respuesta incorrecta y que eligió un número menor al número secreto
-Mayor al que ha pensando el programa: Respuesta incorrecta y que eligió un número mayor al número secreto
-Acerto, ha ganado y en cuantos intentos lo ha logrado'''
-
 from random import *
 
 nombre = input('¿Cuál es tu nombre? ')
