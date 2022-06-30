@@ -7,11 +7,11 @@ Tiene 8 oportunidades para adivinar el número aleatorio.
 ```
 *** Si el número ingresado es menor al número aleatorio se mostrá el siguiente mensaje:
 "Respuesta incorrecta {el nombre ingresado por el usuario}.
-Eligiste un número menor al número secreto." ***
+Elegiste un número menor al número secreto." ***
 
 *** Si el número ingresado es mayor al número aleatorio se mostrá el siguiente mensaje:
-"Respuesta incorrecta {nombre}.
-Eligiste un número mayor al número secreto." ***
+"Respuesta incorrecta {el nombre ingresado por el usuario}.
+Elegiste un número mayor al número secreto." ***
 
 *** Si el número ingresado es igual al número aleatorio se mostrá el siguiente mensaje:
 "Felicidades {el nombre ingresado por el usuario}, acertaste, ¡has ganado!
